@@ -1,6 +1,1 @@
-*
-!.gitignore
-!karabiner/assets/complex_modifications/*
-!karabiner/karabiner.json
-!goku.edn
-!README.md
+.DS_Store
