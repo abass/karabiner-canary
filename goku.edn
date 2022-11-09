@@ -8,12 +8,13 @@
 ;;     }
 ;;   },
 
-;; Doing the above because I can't figure out how to do it in Gokuto
-;; Here's an attempt that doesn't work
-;; (if anyone knows how to do this in Goku, please let me know!)
+;; Doing the above because I can't figure out how to do it in Goku
+;; Here's an attempt to add the optional any modifier that doesn't work
 ;; :froms {
 ;;     :-caps {:key :##caps_lock}
 ;; }
+;; (if anyone knows how to do this in Goku, please let me know!)
+
 {
 ;; caps lock 'extends' my keyboard by creating another layer with various shortcuts and navigation
 ;; this is the layer definition
