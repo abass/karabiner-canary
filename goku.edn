@@ -8,7 +8,9 @@
 ;;     }
 ;;   },
 
-;; Attempt - Doesn't work
+;; Doing the above because I can't figure out how to do it in Gokuto
+;; Here's an attempt that doesn't work
+;; (if anyone knows how to do this in Goku, please let me know!)
 ;; :froms {
 ;;     :-caps {:key :##caps_lock}
 ;; }
@@ -57,7 +59,7 @@
     ]
   }
 
-;; fn row mapping
+;; Fn row mapping
   {:des "Extend Layer Fn Keys"
     :rules [:extend
       [:##1 :display_brightness_decrement]
@@ -67,7 +69,7 @@
       [:##4 :!F4]
       [:##5 :!F5]
       [:##6 :!F6]
-;; missing end
+;; remaining Fn row mapping
       [:##7 :rewind]
       [:##8 :play_or_pause]
       [:##9 :fastforward]
@@ -186,7 +188,7 @@
     ]
   }
 
-;; reset cmd hotkeys to querty layout
+;; reset cmd hotkeys to QWERTY layout
   {:des "⌘ QWERTY"
     :rules [
       [:!C##q :!Cq]
@@ -217,7 +219,7 @@
       [:!C##m :!Cm]
     ]
   }
-;; reset option hotkeys to querty layout
+;; reset option hotkeys to QWERTY layout
   {:des "⌥ QWERTY"
     :rules [
       [:!O##q :!Oq]
