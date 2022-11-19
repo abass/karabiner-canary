@@ -26,6 +26,7 @@
   {:des "Extend Layer"
     :rules [:extend
 ;; modifier keys in extend layer
+      [:##q :left_control]
       [:##e :left_option]
       [:##r :left_command]
       [:##f :left_shift]
