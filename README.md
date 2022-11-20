@@ -14,10 +14,16 @@ I use [Canary](https://github.com/Apsu/Canary) as my default keyboard layout and
 *Feel free to add/modify any of the mappings (I've documented the Goku file to explain how to do everything)*
 
 ## Without Goku (Normal Karabiner)
+
+### Use My Entire Config
 1. Simply copy the `karabiner.json` file to `Users>name>.config>karabiner`
 2. (make sure you first backup your existing `karabiner.json` file if you are already using it for something).
 
 *You'll probably want to also delete some of the other profiles I have mapped for other layouts (in Karabiner Preferences)*
+
+### Use Just Canary Or Extended Layer Mapping
+1. Simply open the `canary.json` or `extended_layer.json` file and copy any of the relevant rules to your existing Karabiner file to `Users>name>.config>karabiner`
+2. Be sure to remove all of the descriptive comments that I have in the json files or it won't work
 
 ## Customizations
 Feel free to visit the Karabiner Preferences "Complex Modifications" tab to delete any additional mappings I have, like the "⌘ QWERTY" or "Extended Layer" mappings.
