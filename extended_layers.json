@@ -15,15 +15,16 @@
                     "basic.to_if_held_down_threshold_milliseconds": 500,
                     "mouse_motion_to_scroll.speed": 100
                 },
-                //Everything above is just boilerplate, what is important is the Rules section
+                Everything above is just boilerplate, what is important is the Rules section
                 "rules": [
                     {
-                        //This generates the Extended Layer when you press and hold "Caps Lock" (you can change this to any other key)
+//!!!DELETE ALL OF THE BELOW COMMENTS IN ORDER FOR THIS TO WORK!!!
+//This generates the Extended Layer when you press and hold "Caps Lock" (you can change this to any other key)
                         "description": "Auto generated layer conditions",
                         "manipulators": [
                             {
                                 "from": {
-                                    //You'd change the key here if you don't want "Caps Lock" to be the Extended Layer key
+//You'd change the key here if you don't want "Caps Lock" to be the Extended Layer key
                                     "key_code": "caps_lock",
                                     "modifiers": {
                                         "optional": [
@@ -47,7 +48,7 @@
                                         }
                                     }
                                 ],
-                                //If you press "Caps Lock" and nothing else, on keypress up, it will delete a character
+//If you press "Caps Lock" and nothing else, on keypress up, it will delete a character
                                 "to_if_alone": [
                                     {
                                         "key_code": "delete_or_backspace"
@@ -58,7 +59,7 @@
                         ]
                     },
                     {
-                        //Here is where you define the extended layer remapping
+//Here is where you define the extended layer remapping
                         "description": "Extend Layer",
                         "manipulators": [
                             {
@@ -70,7 +71,7 @@
                                     }
                                 ],
                                 "from": {
-                                    //This for example means that "Caps Lock" + "q" will be like holding down "Left Control"
+//This for example means that "Caps Lock" + "q" will be like holding down "Left Control"
                                     "key_code": "q",
                                     "modifiers": {
                                         "optional": [
@@ -80,13 +81,13 @@
                                 },
                                 "to": [
                                     {
-                                        //As defined here
+//As defined here
                                         "key_code": "left_control"
                                     }
                                 ],
                                 "type": "basic"
                             },
-                            // Each mapping starts with the "conditions" section, so add or remove this for as many keys as you'd like to remap
+// Each mapping starts with the "conditions" section, so add or remove this for as many keys as you'd like to remap
                             {
                                 "conditions": [
                                     {
@@ -254,7 +255,7 @@
                                 ],
                                 "type": "basic"
                             },
-                            //This is how you map WASD to arrow keys
+//This is how you map WASD to arrow keys
                             {
                                 "conditions": [
                                     {
@@ -347,7 +348,7 @@
                                 ],
                                 "type": "basic"
                             },
-                            //This is how you map IJKL to arrow keys
+//This is how you map IJKL to arrow keys
                             {
                                 "conditions": [
                                     {
