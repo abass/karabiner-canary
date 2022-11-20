@@ -15,10 +15,10 @@
                     "basic.to_if_held_down_threshold_milliseconds": 500,
                     "mouse_motion_to_scroll.speed": 100
                 },
-                Everything above is just boilerplate, what is important is the Rules section
+//!!!DELETE ALL OF THE BELOW COMMENTS IN ORDER FOR THIS TO WORK!!!
+//Everything above is just boilerplate, what is important is the Rules section
                 "rules": [
                     {
-//!!!DELETE ALL OF THE BELOW COMMENTS IN ORDER FOR THIS TO WORK!!!
 //This generates the Extended Layer when you press and hold "Caps Lock" (you can change this to any other key)
                         "description": "Auto generated layer conditions",
                         "manipulators": [
