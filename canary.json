@@ -15,7 +15,8 @@
                     "basic.to_if_held_down_threshold_milliseconds": 500,
                     "mouse_motion_to_scroll.speed": 100
                 },
-                //Everything above is just boilerplate, what is important is the Rules section
+//!!!DELETE ALL OF THE BELOW COMMENTS IN ORDER FOR THIS TO WORK!!!
+//Everything above is just boilerplate, what is important is the Rules section
                 "rules": [
                     {
                         "description": "Canary",
@@ -353,7 +354,7 @@
                         ]
                     },
                     {
-                        //This is to make it so "Right Shift" still functions as "Shift" when pressed
+//This is to make it so "Right Shift" still functions as "Shift" when pressed
                         "description": "Canary Left Shift Layer",
                         "manipulators": [
                             {
@@ -929,7 +930,7 @@
                         ]
                     },
                     {
-                        //This is to make it so "Right Shift" still functions as "Shift" when pressed
+//This is to make it so "Right Shift" still functions as "Shift" when pressed
                         "description": "Canary Right Shift Layer",
                         "manipulators": [
                             {
@@ -1505,7 +1506,7 @@
                         ]
                     },
                     {
-                        //This maps it so when you hold down ⌘ the key mapping reverts to QWERTY (they call this "Programmer Canary") — Feel free to delete this rule if you don't want this
+//This maps it so when you hold down ⌘ the key mapping reverts to QWERTY (they call this "Programmer Canary") — Feel free to delete this rule if you don't want this
                         "description": "⌘ QWERTY",
                         "manipulators": [
                             {
@@ -2083,7 +2084,7 @@
                         ]
                     },
                     {
-                        //This maps it so when you hold down ⌥ the key mapping reverts to QWERTY (this is just a preference) — Feel free to delete this rule if you don't want this
+//This maps it so when you hold down ⌥ the key mapping reverts to QWERTY (this is just a preference) — Feel free to delete this rule if you don't want this
                         "description": "⌥ QWERTY",
                         "manipulators": [
                             {
