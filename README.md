@@ -1,5 +1,24 @@
-# Canary & Goku Keyboard Layout Config (Canary)
-I use [Canary](https://github.com/Apsu/Canary) as my default keyboard layout and I wanted to share my [Karabiner Elements](https://karabiner-elements.pqrs.org/) layout settings to help others use the same layout or take inspiration from how I've set up my secondary layer.
+# About
+I use [Canary](https://github.com/Apsu/Canary) as my default keyboard layout (alternative to QWERTY/Dvorak/Colemak)
+
+# Canary Keyboard Layout
+Here is the default layout as-designed to be used with Angle Mod on a Row Stagger (standard) keyboard:
+
+```
+w l y p k z x o u ; [ ] \
+ c r s t b f n e i a '
+  j v d g q m h / , .
+```
+
+And here is a version that can be used on Ortho keyboards *(you probably aren't using this type of keyboard)*:
+```
+w l y p b z f o u '
+c r s t g m n e i a
+q j v d k x h / , .
+```
+
+# Canary & Goku Keyboard Layout Config
+I wanted to share my [Karabiner Elements](https://karabiner-elements.pqrs.org/) layout settings to help others use the same layout or take inspiration from how I've set up my extended layers (e.g. when a key like `CapsLock` is pressed and held, the key mappings change to be more useful).
 
 *Please note that this only works with MacOS*
 
