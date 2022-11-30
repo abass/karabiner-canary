@@ -1,6 +1,9 @@
 # About
 I use [Canary](https://github.com/Apsu/Canary) as my default keyboard layout (alternative to QWERTY/Dvorak/Colemak)
 
+## History (Time & Words Per Minute)
+I went from 20+ years of QWERTY (140WPM) → 1 Month of Dvorak (55WPM) → 1 Week of Colemak (45WPM) → 1 Month of Colemak-DH (100WPM) → 1 Month of Canary (100WPM)
+
 # Canary Keyboard Layout
 Here is the default layout as-designed to be used with Angle Mod on a Row Stagger (standard) keyboard:
 
